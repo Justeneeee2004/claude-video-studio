@@ -1,0 +1,67 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@huggingface/transformers": "4.2.0",
+    "@mediabunny/server": "1.61.3",
+    "@remotion/animation-utils": "^4.0.536",
+    "@remotion/captions": "^4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/effects": "^4.0.536",
+    "@remotion/google-fonts": "^4.0.536",
+    "@remotion/install-whisper-cpp": "^4.0.536",
+    "@remotion/layout-utils": "^4.0.536",
+    "@remotion/media": "^4.0.536",
+    "@remotion/media-utils": "^4.0.536",
+    "@remotion/motion-blur": "^4.0.536",
+    "@remotion/noise": "^4.0.536",
+    "@remotion/paths": "^4.0.536",
+    "@remotion/rough-notation": "^4.0.536",
+    "@remotion/shapes": "^4.0.536",
+    "@remotion/tailwind-v4": "4.0.536",
+    "@remotion/transitions": "^4.0.536",
+    "@remotion/whisper-webgpu": "^4.0.536",
+    "@remotion/zod-types": "^4.0.536",
+    "mediabunny": "1.61.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536",
+    "tailwindcss": "4.0.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.536",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "studio": "remotion studio",
+    "render:promo": "remotion render ProductPromo ../output/renders/ProductPromo.mp4 --gl=angle",
+    "render:reel": "remotion render SocialReel ../output/renders/SocialReel.mp4 --gl=angle",
+    "render:square": "remotion render SquareAd ../output/renders/SquareAd.mp4 --gl=angle",
+    "render:sting": "remotion render LogoSting ../output/renders/LogoSting.mp4 --gl=angle",
+    "still:thumb": "remotion still Thumbnail ../output/stills/Thumbnail.png",
+    "typecheck": "tsc -p tsconfig.json",
+    "transcribe": "node scripts/transcribe.mts"
+  },
+  "allowScripts": {
+    "esbuild": false
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

@@ -1,0 +1,29 @@
+# dependencies / build
+node_modules/
+remotion/dist/
+remotion/out/
+.DS_Store
+.env
+
+# renders, stills and review reports are per-project output; keep the folders, not the files
+output/**
+!output/**/
+!output/**/.gitkeep
+
+# large raw sources: decide per project (unignore what you want versioned)
+assets/footage/
+assets/audio/
+remotion/public/footage/
+remotion/public/music/
+remotion/public/vo/
+!**/.gitkeep
+
+# client project files stay local: product screenshots, licensed fonts/music/SFX,
+# working briefs and build docs are not part of the studio setup
+assets/screenshots/rallyo/
+remotion/public/rallyo/
+briefs/rallyo-*
+docs/rallyo-*
+
+# scratch
+captions/*.json

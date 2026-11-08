@@ -1,0 +1,39 @@
+{
+  "brandName": "SkedAI",
+  "logoSrc": "",
+  "kicker": "For PH clinics",
+  "headline": "Stop losing patients to no-shows",
+  "accentWords": "no-shows",
+  "sub": "SkedAI confirms every appointment automatically, on SMS and Messenger.",
+  "problemTitle": "Sounds familiar?",
+  "pains": [
+    "Staff calling patients all morning",
+    "20% no-shows every single week",
+    "Double-booked slots and angry patients"
+  ],
+  "productName": "SkedAI",
+  "tagline": "AI appointment confirmations that run themselves.",
+  "screenshotSrc": "",
+  "deviceVariant": "phone",
+  "featureTitle": "How it works",
+  "features": [
+    { "title": "Auto-confirm", "desc": "SMS + Messenger reminders 24h and 2h before." },
+    { "title": "Smart reschedule", "desc": "Patients reply, SkedAI rebooks the slot." },
+    { "title": "Clinic dashboard", "desc": "Confirmations, no-shows and revenue saved." }
+  ],
+  "stat1": { "value": 38, "suffix": "%", "label": "fewer no-shows (placeholder)" },
+  "stat2": { "value": 12, "suffix": "h", "label": "staff time saved weekly (placeholder)" },
+  "quote": "We stopped calling patients manually in week one.",
+  "author": "Placeholder testimonial — replace with a real clinic",
+  "ctaHeadline": "Try SkedAI free for 14 days",
+  "ctaLabel": "Start free trial",
+  "url": "skedai.ph",
+  "note": "No credit card. Setup in 10 minutes.",
+  "musicSrc": "",
+  "sfxEnabled": false,
+  "primary": "#6366F1",
+  "accent": "#22D3EE",
+  "bg": "#0B0F19",
+  "bg2": "#1E1B4B",
+  "danger": "#F43F5E"
+}
